@@ -1,0 +1,41 @@
+body{
+    background: url(imgs/forest.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#open-btn{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 350px;
+    height: 80px;
+    font-size: 2rem;
+    background: transparent;
+    color:darkgreen;
+    border: solid 2px white;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 3px black;
+    transition: .5s;
+    text-align: center;
+}
+
+#open-btn:hover{
+    background-color: #fff;
+    color:black;
+}
+
+#modal{
+    background-color:#fff ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*another way to center content*/
+    width: 200px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display: flex;
+
+}
